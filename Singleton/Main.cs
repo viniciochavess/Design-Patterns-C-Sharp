@@ -3,9 +3,9 @@ namespace Singleton;
 
 
 
-public class Program
+public class ProgramSingleton
 {
-    public static void Main(string[] args)
+    public static void MainSingleton(string[] args)
     {
         Singleton instance1 = Singleton.GetInstance();
         Singleton instance2 = Singleton.GetInstance();
